@@ -1,0 +1,14 @@
+[package]
+name = "dynamic_economic_regulator"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.39.3" }
+world = { local = "../world-contracts" }
+
+[addresses]
+dynamic_economic_regulator = "0x0"
+std = "0x1"
+sui = "0x2"
+world = "0xe113af445aa98d7730cc1d7676ef9b811f95cd52788c6a826dcda88ae06555e3"

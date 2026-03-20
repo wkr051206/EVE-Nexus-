@@ -1,0 +1,12 @@
+[package]
+name = "world"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.39.3" }
+
+[addresses]
+world = "0x0"
+std = "0x1"
+sui = "0x2"
