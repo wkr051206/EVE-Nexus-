@@ -21,6 +21,7 @@ yarn-error.log*
 dapp/node_modules/
 dapp/dist/
 dapp/.env
+dapp/nul
 
 move-contracts/build/
 world-contracts/build/
